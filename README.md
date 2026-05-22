@@ -1,4 +1,5 @@
-#Patient Segmentation Analysis
+Patient Segmentation Analysis
+
 This project demonstrates a comprehensive workflow for segmenting patients using clustering techniques, with a focus on handling mixed data types and extracting actionable insights for healthcare decision-making.
 
 Project Overview
