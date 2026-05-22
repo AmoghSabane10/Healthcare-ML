@@ -1,6 +1,7 @@
 Patient Segmentation Analysis
 
 This project demonstrates a comprehensive workflow for segmenting patients using clustering techniques, with a focus on handling mixed data types and extracting actionable insights for healthcare decision-making.
+This project was completed using Claude Code.
 
 Project Overview
 The goal of this analysis was to segment a patient population based on demographic, clinical, and utilization features. The resulting clusters are intended to inform clinical and business strategies by identifying distinct patient segments.
@@ -27,10 +28,8 @@ Always explore your data first — distributions, missing values, and correlatio
 AI-assisted coding accelerates your workflow but your domain knowledge is irreplaceable. You need to validate and sometimes correct the AI.
 Algorithm choice matters: K-Means with one-hot encoding failed because Euclidean distance doesn't handle mixed data well. Gower distance was the right tool for this dataset.
 Clustering is only useful if you can interpret it: the real value is in the patient segment narratives that inform clinical and business decisions.
-Practice!: The best way to learn is by doing.
-How to Use This Project
-Clone the repository and run the notebook in a Jupyter environment.
-Follow the step-by-step analysis to understand the workflow and adapt it to your own datasets.
+
+
 Requirements
 Python 3.x
 pandas, numpy, scikit-learn, plotly, and other standard data science libraries
